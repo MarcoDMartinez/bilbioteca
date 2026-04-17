@@ -18,11 +18,11 @@ public class BibliotecaController {
     public void onAgregar(){
 
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("agregar.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/view/agregar.fxml"));
         try{
             Parent root = loader.load();
             Stage stage =new Stage();
-            stage.setTitle("segunda ventana");
+            stage.setTitle("Agregar Libro");
             stage.setScene(new Scene(root));
             stage.show();
 

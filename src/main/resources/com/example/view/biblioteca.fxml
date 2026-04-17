@@ -6,10 +6,10 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mvcsesion.controller.BibliotecaController">
    <children>
-      <Button layoutX="85.0" layoutY="200.0" mnemonicParsing="false" onAction="#onMisLibros" text="Mis Libros" />
-      <Button layoutX="256.0" layoutY="200.0" mnemonicParsing="false" onAction="#onAgregar" text="Agregar Libro" />
+      <Button layoutX="42.0" layoutY="200.0" mnemonicParsing="false" onAction="#onMisLibros" text="Mis Libros" />
+      <Button layoutX="225.0" layoutY="200.0" mnemonicParsing="false" onAction="#onAgregar" text="Agregar Libro" />
       <Button layoutX="437.0" layoutY="200.0" mnemonicParsing="false" onAction="#onSalir" text="Salir" />
-      <Label layoutX="229.0" layoutY="70.0" text="BIENVENIDO">
+      <Label layoutX="199.0" layoutY="64.0" text="BIENVENIDO">
          <font>
             <Font name="Constantia" size="23.0" />
          </font>

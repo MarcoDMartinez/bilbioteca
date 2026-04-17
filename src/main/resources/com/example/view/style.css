@@ -1,0 +1,77 @@
+/* styles.css - Estilo biblioteca elegante */
+
+/* Fondo principal con degradado suave */
+.root {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #f5e6d3, #e8d5c4);
+    -fx-font-family: "Segoe UI", "System", "Arial";
+}
+
+/* Estilo para el Label de bienvenida */
+.label {
+    -fx-text-fill: #4a3728;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Georgia", "Times New Roman", serif;
+    -fx-effect: dropshadow(gaussian, rgba(74, 55, 40, 0.15), 3, 0, 0, 2);
+}
+
+/* Estilo base para todos los botones */
+.button {
+    -fx-background-color: #8b5e3c;
+    -fx-text-fill: #fef9e6;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", "System", "Arial";
+    -fx-padding: 12 25 12 25;
+    -fx-background-radius: 25;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+    -fx-border-color: #6b4226;
+    -fx-border-radius: 25;
+    -fx-border-width: 1;
+}
+
+/* Efecto hover para botones */
+.button:hover {
+    -fx-background-color: #a0714b;
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 0, 3);
+}
+
+/* Efecto al presionar botón */
+.button:pressed {
+    -fx-background-color: #6b4226;
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+}
+
+/* Estilo específico para botón "Mis Libros" - tono biblioteca/verde oliva */
+.button:first-child {
+    -fx-background-color: #5d7a5c;
+    -fx-border-color: #3d5a3c;
+}
+
+.button:first-child:hover {
+    -fx-background-color: #6e8f6d;
+}
+
+/* Estilo específico para botón "Agregar Libro" - tono mostaza/cálido */
+.button:nth-child(2) {
+    -fx-background-color: #c9a03d;
+    -fx-border-color: #a07d2e;
+}
+
+.button:nth-child(2):hover {
+    -fx-background-color: #dab04e;
+}
+
+/* Estilo específico para botón "Salir" - tono terracota */
+.button:last-child {
+    -fx-background-color: #b5654b;
+    -fx-border-color: #8e4a35;
+}
+
+.button:last-child:hover {
+    -fx-background-color: #c9775a;
+}

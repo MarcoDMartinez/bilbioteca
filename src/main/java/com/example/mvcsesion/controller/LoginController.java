@@ -25,7 +25,7 @@ public class LoginController {
         String usuarionombre = txtuser.getText();
         String password =txtpassword.getText();
          if (usuarionombre.isEmpty() || password.isEmpty()){
-             txtresultado.setText("llean todos los campos");
+             txtresultado.setText("Rellena todos los campos");
              return;
 
          }

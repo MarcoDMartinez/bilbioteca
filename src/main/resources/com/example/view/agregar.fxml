@@ -5,8 +5,10 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@agregar.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mvcsesion.controller.AgregarLibrosController">
    <children>
-      <TextField layoutX="226.0" layoutY="98.0" promptText="Nombre del Libro" />
-      <TextField layoutX="226.0" layoutY="188.0" promptText="Genero del Libro" />
-      <Button layoutX="274.0" layoutY="296.0" mnemonicParsing="false" text="Agregar" />
+      <TextField fx:id="txtnombre" layoutX="226.0" layoutY="98.0" promptText="Nombre del Libro" />
+      <TextField fx:id="txtgenero" layoutX="226.0" layoutY="188.0" promptText="Genero del Libro" />
+      <Button layoutX="411.0" layoutY="297.0" mnemonicParsing="false" onAction="#onAgregarLibro" text="Agregar" />
+      <Label fx:id="txtresultado" layoutX="325.0" layoutY="264.0" textFill="WHITE" />
+      <Button layoutX="179.0" layoutY="297.0" mnemonicParsing="false" onAction="#onSalir" text="Salir" />
    </children>
 </AnchorPane>
